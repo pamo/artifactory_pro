@@ -1,5 +1,7 @@
 # Artifactory Pro Cookbook
-[![Build Status](http://img.shields.io/travis/opscode-cookbooks/jenkins.svg)][travis]
+[![Build Status](https://travis-ci.org/monkeylittleinc/artifactory_pro.svg)](https://travis-ci.org/monkeylittleinc/artifactory_pro)
+[![Cookbook Version](https://img.shields.io/cookbook/v/artifactory_pro.svg)](https://supermarket.chef.io/cookbooks/artifactory_pro)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/monkeylittleinc/artifactory_pro)
 
 Installs and configures Artifactory pro.
 
