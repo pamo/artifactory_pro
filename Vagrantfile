@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = 'chef/centos-6.6'
   config.vm.box_check_update = true
 
-  config.vm.hostname = 'artifactory-ppro'
+  config.vm.hostname = 'artifactory-pro'
   config.vm.network 'forwarded_port', guest: '8081', host: '8081'
 
   config.vm.provider 'virtualbox' do |vb|
