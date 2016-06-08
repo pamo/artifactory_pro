@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
     config.cache.enable :yum
   end
 
-  config.vm.box = 'chef/centos-6.6'
+  config.vm.box = 'bento/centos-7.1'
   config.vm.box_check_update = true
 
   config.vm.hostname = 'artifactory-pro'

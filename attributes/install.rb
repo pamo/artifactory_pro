@@ -24,5 +24,5 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-default['artifactory_pro']['install']['version'] = '3.8.0'
+default['artifactory_pro']['install']['version'] = '4.8.0'
 default['artifactory_pro']['install']['url'] = "https://bintray.jfrog.com/artifactory-pro/org/artifactory/powerpack/artifactory-powerpack-rpm/#{node['artifactory_pro']['install']['version']}/artifactory-powerpack-rpm-#{node['artifactory_pro']['install']['version']}.rpm"

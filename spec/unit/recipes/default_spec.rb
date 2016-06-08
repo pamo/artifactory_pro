@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'artifactory_pro::default' do
   context 'artifactory is not installed' do
     let(:chef_run) do
-      ChefSpec::ServerRunner.new(platform: 'centos', version: '6.6').converge(described_recipe)
+      ChefSpec::ServerRunner.new(platform: 'centos', version: '7.1').converge(described_recipe)
     end
 
     before do
@@ -18,7 +18,7 @@ describe 'artifactory_pro::default' do
 
   context 'artifactory is installed' do
     let(:chef_run) do
-      ChefSpec::ServerRunner.new(platform: 'centos', version: '6.6').converge(described_recipe)
+      ChefSpec::ServerRunner.new(platform: 'centos', version: '7.1').converge(described_recipe)
     end
 
     before do
