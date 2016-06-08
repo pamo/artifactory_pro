@@ -25,4 +25,4 @@
 #
 
 default['artifactory_pro']['install']['version'] = '4.8.0'
-default['artifactory_pro']['install']['url'] = "https://bintray.jfrog.com/artifactory-pro/org/artifactory/powerpack/artifactory-powerpack-rpm/#{node['artifactory_pro']['install']['version']}/artifactory-powerpack-rpm-#{node['artifactory_pro']['install']['version']}.rpm"
+default['artifactory_pro']['install']['url'] = "https://dl.bintray.com/jfrog/artifactory-pro-rpms/org/artifactory/pro/rpm/jfrog-artifactory-pro/#{node['artifactory_pro']['install']['version']}/jfrog-artifactory-pro-#{node['artifactory_pro']['install']['version']}.rpm"
